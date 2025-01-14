@@ -19,11 +19,11 @@ export default function RootLayout() {
             component={LoginPage}
             options={{ title: "Welcome", headerShown: false }}
           />
-          {/* <Stack.Screen
+          <Stack.Screen
             name="Portal"
             component={PortalLayout}
             options={{ headerShown: false }}
-          /> */}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </NavigationIndependentTree>
