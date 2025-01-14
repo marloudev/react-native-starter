@@ -24,7 +24,7 @@ export default function Input({
 
         <View
           htmlFor={name}
-          className="absolute ml-2 px-2.5 transition-all rounded-xl bg-white text-blue-black/60 text-sm -top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2.5 peer-focus:-top-3 peer-focus:text-sm peer-focus:text-blue-600 peer-focus:bg-white"
+          className="absolute ml-2 px-2.5 rounded-xl bg-white text-blue-black/60 text-sm -top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2.5 peer-focus:-top-3 peer-focus:text-sm peer-focus:text-blue-600 peer-focus:bg-white"
         >
           <Text>{label}</Text>
         </View>
